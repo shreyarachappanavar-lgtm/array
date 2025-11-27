@@ -5,7 +5,7 @@ if len(sys.argv) > 1:
     scores = sys.argv[1:]
     print("User-provided scores:")
 else:
-    print("No input given – using default scores")
+    print("No input given – using the default scores")
     scores = ["85", "90", "78"]
 
 # Convert all scores to integers
